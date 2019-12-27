@@ -1,0 +1,220 @@
+.main_header {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.header {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+
+.sub_header_1 {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+
+.sub_header_2 {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    display: none;
+}
+
+.main_container {
+    margin: 0 auto;
+    /* margin-top: 20px; */
+    border: 1px solid white;
+    border-top: none;
+    height: 400px;
+    width: 312px;
+    position: relative;
+    background-color: lightgray;
+    overflow: hidden;
+}
+
+.score_bar {
+    margin: 0 auto;
+    /* margin-top: 50px; */
+    border: 1px solid white;
+    border-bottom: none;
+    padding-bottom: 3px;
+    /* height: 30px; */
+    width: 312px;
+    margin-top: 0px;
+    position: relative;
+    background-color: peru;
+    display: table;
+    color: white;
+    font-size: 14px;
+}
+
+.score {
+    padding-left: 1%;
+    width: 24%;
+    float: left;
+}
+
+.score_right_part {
+    /* margin-left: 15%; */
+    float: left;
+}
+
+.time {
+    margin-left: 20%;
+    float: left;
+}
+
+.speed {
+    padding-right: 1%;
+    float: right;
+}
+
+.bullets_bar {
+    margin: 0 auto;
+    /* margin-top: 50px; */
+    border: 1px solid white;
+    border-top: none;
+    border-bottom: 1px solid white;
+    padding-bottom: 3px;
+    /* height: 30px; */
+    width: 312px;
+    margin-top: 0px;
+    position: relative;
+    background-color: peru;
+    display: table;
+    color: white;
+    font-size: 14px;
+}
+
+.bullet_count {
+    padding-left: 1%;
+    float: left;
+    text-align: center;
+}
+
+.car_kills {
+    padding-right: 1%;
+    float: right;
+    text-align: center;
+}
+
+.background_container {
+    /* height: 312px; */
+    width: 312px;
+    position: relative;
+    background-color: lightgreen;
+}
+
+.start_box {
+    text-align: center;
+    border-radius: 20%;
+    background-color: white;
+    position: absolute;
+    font-size: 17px;
+    color: red;
+    overflow: hidden;
+}
+
+.start_box img {
+    /* height: 75%; */
+    margin-top: 0px;
+    border-radius: 50%;
+}
+
+.ending_box {
+    text-align: center;
+    border-radius: 20%;
+    background-color: white;
+    position: absolute;
+    font-size: 17px;
+    color: red;
+}
+
+.ending_box img {
+    /* height: 75%; */
+    margin-top: 0px;
+    border-radius: 50%;
+}
+
+.main_car_box {
+    position: absolute;
+}
+
+.other_car_box {
+    position: absolute;
+    /* display: none; */
+}
+
+.other_car_box img {
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+}
+
+.bullet {
+    position: absolute;
+    background-color: transparent;
+    border-radius: 100%;
+}
+
+.buttons {
+    margin: 0 auto;
+    margin-top: 20px;
+    /* border: 1px solid blueviolet; */
+    /* border-top: none; */
+    height: 100px;
+    width: 312px;
+    position: relative;
+    background-color: black;
+    overflow: hidden;
+    display: none;
+}
+
+.left_button {
+    float: left;
+    width: 100px;
+    height: 80px;
+    background-color: blueviolet;
+    /* background-image: url("../images/left.svg"); */
+    background-repeat: no-repeat;
+    /* align-items: center; */
+}
+
+.right_buttons {
+    float: right;
+    width: 206px;
+    height: 100px;
+}
+
+.fire_button {
+    float: left;
+    width: 100px;
+    height: 80px;
+    background-color: blueviolet;
+    /* background-image: url("../images/jump.svg"); */
+    background-repeat: no-repeat;
+}
+
+.right_button {
+    float: right;
+    width: 100px;
+    height: 80px;
+    background-color: blueviolet;
+    /* background-image: url("../images/right.svg"); */
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 900px) {
+    .buttons {
+        display: block;
+    }
+    .sub_header_1 {
+        display: none;
+    }
+    .sub_header_2 {
+        display: block;
+    }
+}
