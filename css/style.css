@@ -10,19 +10,6 @@
     font-size: 15px;
 }
 
-.sub_header_1 {
-    text-align: center;
-    color: white;
-    font-size: 15px;
-}
-
-.sub_header_2 {
-    text-align: center;
-    color: white;
-    font-size: 15px;
-    display: none;
-}
-
 .main_container {
     margin: 0 auto;
     /* margin-top: 20px; */
@@ -158,63 +145,4 @@
     position: absolute;
     background-color: transparent;
     border-radius: 100%;
-}
-
-.buttons {
-    margin: 0 auto;
-    margin-top: 20px;
-    /* border: 1px solid blueviolet; */
-    /* border-top: none; */
-    height: 100px;
-    width: 312px;
-    position: relative;
-    background-color: black;
-    overflow: hidden;
-    display: none;
-}
-
-.left_button {
-    float: left;
-    width: 100px;
-    height: 80px;
-    background-color: blueviolet;
-    /* background-image: url("../images/left.svg"); */
-    background-repeat: no-repeat;
-    /* align-items: center; */
-}
-
-.right_buttons {
-    float: right;
-    width: 206px;
-    height: 100px;
-}
-
-.fire_button {
-    float: left;
-    width: 100px;
-    height: 80px;
-    background-color: blueviolet;
-    /* background-image: url("../images/jump.svg"); */
-    background-repeat: no-repeat;
-}
-
-.right_button {
-    float: right;
-    width: 100px;
-    height: 80px;
-    background-color: blueviolet;
-    /* background-image: url("../images/right.svg"); */
-    background-repeat: no-repeat;
-}
-
-@media only screen and (max-width: 900px) {
-    .buttons {
-        display: block;
-    }
-    .sub_header_1 {
-        display: none;
-    }
-    .sub_header_2 {
-        display: block;
-    }
 }
